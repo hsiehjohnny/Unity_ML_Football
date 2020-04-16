@@ -28,10 +28,10 @@ public class robot : Agent
         rigball.angularVelocity = Vector3.zero;
 
 
-        Vector3 posrobot = new Vector3(Random.Range(-2f, 2f), 0.1f, Random.Range(-1f, 0f));
+        Vector3 posrobot = new Vector3(Random.Range(-1f, 1f), 0.1f, Random.Range(-1f, 0f));
         transform.position = posrobot;
 
-        Vector3 posball = new Vector3(Random.Range(-2f, 2f), 0.1f, Random.Range(1f, 2f));
+        Vector3 posball = new Vector3(Random.Range(-1f, 1f), 0.1f, Random.Range(1f, 2f));
         rigball.position = posball;
 
         ball.complete = false;
