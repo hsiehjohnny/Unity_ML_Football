@@ -615,4 +615,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/user/Documents/GitHub/ml-agents/Unity_ML_Football/Web
+  playerPath: C:/Users/user/Documents/GitHub/ml-agents/Unity_ML_Football/Web2
